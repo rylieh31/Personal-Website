@@ -1,23 +1,21 @@
 import React from 'react';
 import './home.css';
-import { ReactComponent as CircuitSVG } from '../../images/Circuit Divider Long.svg';
+import me from '../../images/home page.png';
 
 const Home = () => {
   return (
+    <div className="home">
+      <div className="hero-text">
+        <h1>Hi, I'm Rylie Horning.</h1>
+        <p className="subtitle">
+          I am an Electrical Engineering student at Virginia Tech, passionate about bridging hardware and software.
+        </p>
+        <a className="project-button" href="/projects">Explore My Projects</a>
+      </div>
 
-<nav className="home">
-  
-    <dev>
-      <CircuitSVG className="circuit-bg" />
-      <h1>Rylie Horning</h1>
-      <p className="subtitle">Electrical Engineering Student at Virginia Tech</p>
-      <hr />
-      <p className="tagline">Passionate about bridging hardware and software</p>
-      <a className="project-button" href="/projects">Explore My Projects</a>
-     
-    </dev>
-</nav>
-);
+      <img src={me} alt="Me" className="photo" />
+    </div>
+  );
 };
 
 export default Home;

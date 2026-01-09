@@ -1,37 +1,40 @@
 .home {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  text-align: center;
-  min-height: 72vh;  
+  min-height: 72vh;
+  padding: 0 2rem; /* smaller padding */
   color: var(--color-text);
+
+  max-width: 1100px;   
+  margin: 0 auto;     
+  width: 100%;         
 }
 
+
+
 .home h1 {
-  font-size: 3.5rem;       
-  font-weight: 400;
+  font-size: 2rem;       
+  font-weight: 600;
   margin: 0;
   
 }
 
 .home p.subtitle {
-  font-size: 1.5rem;   
+  font-size: 1.2rem;   
   font-weight: 400;
-  padding: 0.8rem;
-  margin: 0;
+  margin-top: 2rem;
+ 
 }
 
-
-.home p.tagline {
-  font-size: 1.2rem;
-  font-weight: 300;
-  color: #4B5563;          
-  margin-top: 2rem;      
+.hero-text {
+  max-width: 35rem;
 }
+
 
 .project-button {
   display: inline-block;
-  margin-top: 3rem;                 
+  margin-top: 1.5rem;                 
   padding: 0.8rem 2rem;
   background-color: var(--color-accent);
   color: #ffffff;
@@ -53,4 +56,10 @@
   height: auto;
   z-index: -1;      
   pointer-events: none; 
+}
+
+.photo {
+  max-width: 30rem;
+  height: auto;
+  object-fit: contain;
 }

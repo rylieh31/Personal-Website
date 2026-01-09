@@ -13,7 +13,7 @@ const Home = () => {
         <a className="project-button" href="/projects">Explore My Projects</a>
       </div>
 
-      <img src={me} alt="Me" className="photo" />
+      <img src={me} alt="Me" className="photohome" />
     </div>
   );
 };

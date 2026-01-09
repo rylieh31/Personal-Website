@@ -78,6 +78,7 @@
   text-decoration: none;
   font-weight: 500;
   transition: background 0.2s ease;
+  max-width: 40%;
 }
 
 .project-buttons a:hover {

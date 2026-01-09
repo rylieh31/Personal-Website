@@ -1,7 +1,99 @@
-.education {
+.education-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+  color: var(--color-text);
+  letter-spacing: 0.5px;
+}
+
+.education-list {
   display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.education-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  padding: 2rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.education-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+.card-content {
+  display: flex;
+  align-items: flex-start;
   justify-content: space-between;
-  align-items: center;
-  color: black;
-  padding: 1rem;
+  gap: 2rem;
+}
+
+.description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+/* School bigger, degree smaller */
+.school {
+  font-size: 1.3rem; /* Bigger */
+  font-weight: 600;
+  margin: 0;
+  color: #0f172a;
+}
+
+.degree {
+  font-size: 1.1rem; /* Smaller */
+  font-weight: 400;
+  margin: 0;
+  color: #475569;
+}
+
+.date {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-top: 0.2rem;
+}
+
+.card-logo {
+  width: 6rem;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.highlight-chip {
+  background-color: #e5e7eb;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  color: #1f2937;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .card-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card-logo {
+    width: 5rem;
+    margin-top: 1rem;
+  }
 }

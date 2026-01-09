@@ -10,7 +10,10 @@ import MyWebsite from "../../images/My Website.png"
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section className="projects-section">
+      <h2 className="projects-title">My Projects</h2>
+
+      <div className="projects">
       {/* project 1 : Car project */}
       <div className="project-card">
         <img src={Placeholder} alt="Automotive Electronics" className="photo" />
@@ -162,6 +165,7 @@ const Projects = () => {
 
         
         </div>
+      </div>
       </div>
     </section>
   );

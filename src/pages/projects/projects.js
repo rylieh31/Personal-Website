@@ -4,7 +4,7 @@ import React from "react";
 import "./projects.css";
 import SafeTrek from "../../images/SafeTrek.JPG";
 import Placeholder from "../../images/projects placeholder.webp"
-import OnAir from "../../images/On Air Schematic.png"
+import OnAir from "../../images/On Air Schematic.jpg"
 import Walter from "../../images/WalTer.JPG"
 import MyWebsite from "../../images/My Website.png"
 

@@ -38,7 +38,7 @@ const About = () => {
         <div className="info-section">
           <p className="description">
             Hi, I'm Rylie!<br /><br />
-            I’m an Electrical Engineering student at Virginia Tech pursuing a minor in Computer Science, and I’m currently a Supply Chain Intern at Moog Inc. I have a passion for robotics, electric vehicles, and hands-on electrical systems, and I love designing and wiring circuits, creating custom schematics, and building practical solutions that combine hardware and software.<br /><br />
+            I’m an Electrical Engineering student at Virginia Tech pursuing a minor in Computer Science, and I’m currently a Supply Chain Intern at Moog Inc. I have a passion for robotics, electric vehicles, and hands-on electrical systems. I love designing and wiring circuits, creating schematics, and building solutions that combine hardware and software.<br /><br />
             Outside of engineering, I enjoy hiking, biking, and running, keeping active and exploring the outdoors. I thrive on learning new technologies, solving challenging problems, and collaborating with teams to bring projects to life.
           </p>
         </div>

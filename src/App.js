@@ -6,6 +6,7 @@ import About from './pages/about/about';
 import Projects from './pages/projects/projects';
 import Experience from './pages/experience/experience';
 import Education from './pages/education/education';
+import Footer from "./components/footer/footer"
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/education" element={<Education />} />
       </Routes>
+
+      <Footer />
     </div>
   );
 }

@@ -49,7 +49,7 @@ const Education = () => {
                   ))}
                 </div>
               </div>
-              <img src={edu.logo} alt={`${edu.school} logo`} className="card-logo" />
+              <img src={edu.logo} alt={`${edu.school} logo`} className="card-logo-ed" />
             </div>
           </div>
         ))}

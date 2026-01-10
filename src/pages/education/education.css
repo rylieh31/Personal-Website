@@ -1,3 +1,5 @@
+
+
 .education-title {
   text-align: center;
   font-weight: 600;
@@ -11,7 +13,7 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -44,27 +46,27 @@
 
 /* School bigger, degree smaller */
 .school {
-  font-size: 1.3rem; /* Bigger */
+  font-size: 1.5rem; /* Bigger */
   font-weight: 600;
   margin: 0;
   color: #0f172a;
 }
 
 .degree {
-  font-size: 1.1rem; /* Smaller */
+  font-size: 1.15rem; /* Smaller */
   font-weight: 400;
   margin: 0;
   color: #475569;
 }
 
 .date {
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: #64748b;
   margin-top: 0.2rem;
 }
 
-.card-logo {
-  width: 6rem;
+.card-logo-ed {
+  width: 10rem;
   height: auto;
   object-fit: contain;
   flex-shrink: 0;
@@ -79,9 +81,9 @@
 
 .highlight-chip {
   background-color: #e5e7eb;
-  padding: 0.3rem 0.7rem;
+  padding: 0.5rem 1rem;
   border-radius: 999px;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   color: #1f2937;
 }
 

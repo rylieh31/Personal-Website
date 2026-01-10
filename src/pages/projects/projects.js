@@ -70,7 +70,7 @@ const Projects = () => {
 
           <div className="project-buttons">
             {/*<a href="#">Demo</a>*/}
-            <a href="#">GitHub</a>
+            {/*<a href="#">GitHub</a>*/}
           </div>
 
           
@@ -113,7 +113,7 @@ const Projects = () => {
         <img src={Walter} alt="Robotics Control Board" className="photo" />
 
         <div className="project-content">
-          <h3 className="title">Walter</h3>
+          <h3 className="title">WalTer</h3>
 
           <div className="project-divider" />
 

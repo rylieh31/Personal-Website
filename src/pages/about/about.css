@@ -1,7 +1,112 @@
-.about {
+.about-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+  color: var(--color-text);
+  letter-spacing: 0.5px;
+}
+
+/* Top section: Main photo + Paragraph */
+.top-section {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: black;
-  padding: 1rem;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto 3rem auto;
+  flex-wrap: wrap;
+}
+
+.profile-photo {
+  width: 400px;
+  height: auto; /* square */
+  object-fit: cover;
+  border-radius: 16px;
+  border: 4px solid #e5e7eb;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  flex-shrink: 0;
+}
+
+.info-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description {
+  font-size: 1rem;
+  color: #334155;
+  line-height: 1.6;
+}
+
+/* Bottom section: Skills + second photo */
+.bottom-section {
+  display: flex;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.skills-section {
+  flex: 1;
+}
+
+.skill-category {
+  margin-bottom: 1.5rem;
+}
+
+.skill-category h4 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-chip {
+  background-color: #e5e7eb;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: #1f2937;
+}
+
+.second-photo-section {
+  flex-shrink: 0;
+}
+
+.second-photo {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 4px solid #e5e7eb;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* Mobile */
+@media (max-width: 1024px) {
+  .top-section, .bottom-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-photo, .second-photo {
+    width: 180px;
+    height: 180px;
+  }
+
+  .info-section, .skills-section {
+    text-align: center;
+    align-items: center;
+  }
+
+  .skill-category {
+    text-align: center;
+  }
 }

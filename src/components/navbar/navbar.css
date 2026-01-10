@@ -62,3 +62,59 @@
   background-color: #93c5fd; /* lighter blue on hover */
   border-radius: 2px;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;             /* allow menu to drop below */
+    padding: 0.5rem 1rem;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 0.5rem;
+    z-index: 1001;
+  }
+
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 0;
+    transition: all 0.3s ease;
+  }
+
+  /* Animate hamburger into X when open */
+  .hamburger .bar.open:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .hamburger .bar.open:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger .bar.open:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
+
+  .navbar-right {
+    width: 100%;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+  }
+
+  .navbar-right.open {
+    max-height: 500px; /* large enough to show all links */
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0.5rem 0;
+  }
+
+  .nav-links li {
+    margin: 0.8rem 0;
+  }
+}

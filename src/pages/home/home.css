@@ -64,3 +64,32 @@
   height: auto;
   object-fit: contain;
 }
+
+/* Mobile / small screens */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;        /* stack text + image */
+    align-items: center;           /* center everything */
+    text-align: center;            /* center text */
+    padding: 2rem 1rem;            /* smaller padding for mobile */
+  }
+
+  .hero-text {
+    max-width: 100%;               /* full width on mobile */
+  }
+
+  .home p.subtitle {
+    margin-top: 1rem;              /* smaller spacing */
+    font-size: 1.2rem;             /* adjust font size */
+  }
+
+  .project-button {
+    padding: 0.8rem 2rem;          /* slightly smaller button */
+    font-size: 1rem;
+  }
+
+  .photohome {
+    max-width: 80%;                /* shrink image to fit screen */
+    margin-top: 2rem;              /* add space below text */
+  }
+}

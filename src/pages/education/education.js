@@ -19,7 +19,7 @@ const education = [
     degree: "Associate of Arts and Sciences: Computer Science",
     date: "Aug 2021 – May 2024",
     logo: nrccLogo,
-    highlights: ["GPA: 4.00/4.00", "President's List"]
+    highlights: ["Completed concurrently with High School","GPA: 4.00/4.00", "President's List"]
   },
   {
     school: "Christiansburg High School",

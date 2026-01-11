@@ -159,7 +159,7 @@ const Projects = () => {
           </div>
 
           <div className="project-buttons">
-            <a href="https://github.com/rylieh31/Personal-Website">Demo</a>
+            <a href="https://ryliehorning.me">Demo</a>
             <a href="https://github.com/rylieh31/Personal-Website">GitHub</a>
           </div>
 

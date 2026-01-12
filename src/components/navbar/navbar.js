@@ -47,6 +47,11 @@ const Navbar = () => {
               Education
             </NavLink>
           </li>
+          <li>
+            <NavLink to="/resume" className={({ isActive }) => isActive ? 'active' : ''} onClick={() => setIsOpen(false)}>
+              Resume
+            </NavLink>
+          </li>
         </ul>
       </div>
     </nav>

@@ -7,6 +7,7 @@ import Projects from './pages/projects/projects';
 import Experience from './pages/experience/experience';
 import Education from './pages/education/education';
 import Footer from "./components/footer/footer"
+import Resume from "./pages/resume/resume"
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/education" element={<Education />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
 
       <Footer />

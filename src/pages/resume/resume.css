@@ -1,0 +1,13 @@
+.resume {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 72vh;
+  padding: 0 2rem; /* smaller padding */
+  color: var(--color-text);
+  max-width: 1150px;   
+  margin: 0 auto;     
+  width: 100%;      
+  margin-bottom: 5rem;   
+}
+

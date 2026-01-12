@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope, FaFileAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -26,6 +26,15 @@ const Footer = () => {
           <a href="mailto:rylieh@vt.edu" aria-label="Email">
             <FaEnvelope />
           </a>
+          <a
+            href="/resume"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Resume"
+          >
+            <FaFileAlt />
+          </a>
+
         </div>
       </div>
     </footer>

@@ -12,7 +12,7 @@ const education = [
     degree: "B.S. in Engineering: Electrical Engineering with a minor in Computer Science",
     date: "Aug 2024 – May 2028",
     logo: vtLogo,
-    highlights: ["GPA: 3.65/4.00", "Computer Science Minor"]
+    highlights: ["GPA: 3.66/4.00", "Computer Science Minor"]
   },
   {
     school: "New River Community College",

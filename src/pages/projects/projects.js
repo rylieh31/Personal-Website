@@ -7,6 +7,7 @@ import Placeholder from "../../images/projects placeholder.webp"
 import OnAir from "../../images/On Air Schematic.jpg"
 import Walter from "../../images/WalTer.JPG"
 import MyWebsite from "../../images/My Website.png"
+import LED from "../../images/LED Car Schematic.jpeg"
 
 const Projects = () => {
   return (
@@ -16,7 +17,7 @@ const Projects = () => {
       <div className="projects">
       {/* project 1 : Car project */}
       <div className="project-card">
-        <img src={Placeholder} alt="Automotive Electronics" className="photo" />
+        <img src={LED} alt="Automotive Electronics" className="photo" />
 
         <div className="project-content">
           <h3 className="title">Automotive Electronics Project</h3>

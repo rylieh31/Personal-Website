@@ -54,7 +54,7 @@ const Projects = () => {
           <div className="project-divider" />
 
           <p className="summary">
-            Built an ESP32-based web-controlled LED sign with relay power switching and stable local network operation.
+            Built a web-controlled ESP32 relay-based LED sign using embedded networking and relay control.
           </p>
 
           <div className="project-tags">
@@ -88,7 +88,7 @@ const Projects = () => {
           <div className="project-divider" />
 
           <p className="summary">
-            2025 HackViolet award-winning web project the recommends travel suggestions based on user input to help women travel safely.
+            2025 HackViolet award-winning web project that recommends travel suggestions based on user input to help women travel safely.
           </p>
 
           <div className="project-tags">

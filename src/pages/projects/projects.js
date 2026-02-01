@@ -7,6 +7,7 @@ import OnAir from "../../images/On Air Schematic.jpg"
 import Walter from "../../images/WalTer.JPG"
 import MyWebsite from "../../images/My Website.png"
 import LED from "../../images/LED Car Schematic.jpeg"
+import WatchHer from "../../images/WatchHer.jpg"
 
 const Projects = () => {
   return (
@@ -77,7 +78,39 @@ const Projects = () => {
         </div>
       </div>
 
-      {/* Project 3: SafeTrek */}
+      {/* Project 3: WatchHer */}
+      <div className="project-card">
+        <img src={WatchHer} alt="WatchHer" className="photo" />
+
+        <div className="project-content">
+          <h3 className="title">WatchHer</h3>
+
+          <div className="project-divider" />
+
+          <p className="summary">
+            Built a Wear OS safety application that leverages smartwatch biometric sensors and stress detection to proactively identify potential danger and trigger alerts.
+          </p>
+
+          <div className="project-tags">
+            <span>Andriod Studio</span>
+            <span>WearOS</span>
+            <span>Python</span>
+            <span>Machine Learning</span>
+            <span>RestAPI</span>
+            <span>Kotlin</span>
+          </div>
+
+          <div className="project-buttons">
+            
+            <a href="https://github.com/rylieh31/WatchHer">GitHub</a>
+            <a href="https://devpost.com/software/herwatch" target="_blank" rel="noopener noreferrer">Devpost</a>
+          </div>
+
+        
+        </div>
+      </div>
+
+    {/* Project 4: SafeTrek */}
       <div className="project-card">
         <img src={SafeTrek} alt="Robotics Control Board" className="photo" />
 
@@ -102,13 +135,15 @@ const Projects = () => {
           <div className="project-buttons">
             
             <a href="https://github.com/HackViolet2025Team/hackviolet2025team.github.io">GitHub</a>
+            <a href="https://devpost.com/software/safetrek-s4elz5" target="_blank" rel="noopener noreferrer">Devpost</a>
           </div>
 
         
         </div>
       </div>
 
-      {/* Project 4: WalTer */}
+
+      {/* Project 5: WalTer */}
       <div className="project-card">
         <img src={Walter} alt="Robotics Control Board" className="photo" />
 
@@ -133,13 +168,15 @@ const Projects = () => {
           <div className="project-buttons">
             {/*<a href="#">Demo</a>*/}
             <a href="https://github.com/honzikschenk/WalTer">GitHub</a>
+            <a href="https://devpost.com/software/walter-your-everyday-inventory-companion" target="_blank" rel="noopener noreferrer">Devpost</a>
+
           </div>
 
         
         </div>
       </div>
 
-      {/* Project 5: This Website */}
+      {/* Project 6: This Website */}
       <div className="project-card">
         <img src={MyWebsite} alt="Robotics Control Board" className="photo" />
 

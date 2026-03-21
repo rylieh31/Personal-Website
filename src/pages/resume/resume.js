@@ -1,6 +1,6 @@
 import React from 'react';
 import './resume.css';
-import myResume from "../../documents/Rylie_Horning_s_Resume.pdf"
+import myResume from "../../documents/Rylie_Horning_s_Resume_Website.pdf"
 
 const Resume = () => {
   return (

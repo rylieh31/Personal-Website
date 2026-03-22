@@ -8,13 +8,45 @@ import Walter from "../../images/WalTer.JPG"
 import MyWebsite from "../../images/My Website.png"
 import LED from "../../images/LED Car Schematic.jpeg"
 import WatchHer from "../../images/WatchHer.jpg"
+import AMPLab from "../../images/AMPLabCompSchematic.png"
 
 const Projects = () => {
   return (
-    <section className="projects-section">
+     <section className="projects-section">
       <h2 className="projects-title">My Projects</h2>
 
       <div className="projects">
+      {/* project 0 : AMP Lab Competition Project */}
+      <div className="project-card">
+        <img src={AMPLab} alt="Power Supply Failure Detection System" className="photo" />
+
+        <div className="project-content">
+          <h3 className="title">Power Supply Failure Detection System</h3>
+
+          <div className="project-divider" />
+
+          <p className="summary">
+            Designed and built an analog circuit that monitors an input signal and detects when a voltage leaves its acceptable operating range. Indicates fault conditions using LEDs. 
+          </p>
+
+          <div className="project-tags">
+            <span>Circuit Analysis</span>
+            <span>Comparitor Op-Amp</span>
+            <span>LTspice</span>
+            <span>BJT Transistor</span>
+            <span>Oscilloscope</span>
+            <span>Circuit Building</span>
+          </div>
+
+          {/* <div className="project-buttons">
+            <a href="#" target="_blank" rel="noopener noreferrer">Demo</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div> */}
+
+          
+        </div>
+      </div>
+    
       {/* project 1 : Car project */}
       <div className="project-card">
         <img src={LED} alt="Automotive Electronics" className="photo" />

@@ -9,13 +9,43 @@ import MyWebsite from "../../images/My Website.png"
 import LED from "../../images/LED Car Schematic.jpeg"
 import WatchHer from "../../images/WatchHer.jpg"
 import AMPLab from "../../images/AMPLabCompSchematic.png"
+import Audio from "../../images/Home Audio System.jpeg"
 
 const Projects = () => {
   return (
      <section className="projects-section">
       <h2 className="projects-title">My Projects</h2>
-
       <div className="projects">
+             {/* project -1 : Home Audio System */}
+      <div className="project-card">
+        <img src={Audio} alt="Home Audio System" className="photo" />
+
+        <div className="project-content">
+          <h3 className="title">Home Audio System</h3>
+
+          <div className="project-divider" />
+
+          <p className="summary">
+            Designed and validated a multi-stage audio system integrating a 3-band equalizer, MOSFET Class-D amplifier, and Butterworth RLC filter.
+          </p>
+
+          <div className="project-tags">
+            <span>Analog Circuit Design</span>
+            <span>LTspice</span>
+            <span>Active Filters</span>
+            <span>Class-D Amplifier</span>
+            <span>Arduino</span>
+            <span>PWM</span>
+          </div>
+
+          {/* <div className="project-buttons">
+            <a href="#" target="_blank" rel="noopener noreferrer">Demo</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div> */}
+
+          
+        </div>
+      </div>
       {/* project 0 : AMP Lab Competition Project */}
       <div className="project-card">
         <img src={AMPLab} alt="Power Supply Failure Detection System" className="photo" />

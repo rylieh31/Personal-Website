@@ -9,12 +9,21 @@ import frc from "../../images/frc401 logo.png";
 
 const experiences = [
   {
-    title: "Supply Chain Intern",
+    title: "Electrical Engineering Intern",
     company: "Moog Inc",
     date: "Jul 2025 - Present",
     logo: moog,
     description:
-      "I create clear, ISO-9001-aligned work instructions based on the tasks our team performs in SAP. I also support the supply chain group with various needs to help keep operations running smoothly.",
+      "I am designing and developing a custom solder training kit to support new Moog Technicians. To do this, I am creating electrical scehmatics and PCB layouts using Cadence OrCAD/Allegro.",
+    skills: ["Schmatic Capture", "Cadence OrCAD/Allegro", "Circuit Design", "PCB Layouts"],
+  },
+  {
+    title: "Supply Chain Intern",
+    company: "Moog Inc",
+    date: "Jul 2025 - May 2026",
+    logo: moog,
+    description:
+      "I created clear, ISO-9001-aligned work instructions based on the tasks our team performs in SAP. I also supported the supply chain group with various needs to help keep operations running smoothly.",
     skills: ["SAP ERP", "Process Documentation", "Technical Writing"],
   },
   {

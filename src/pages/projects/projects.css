@@ -109,3 +109,31 @@
   border-radius: 0.4rem;
   font-size: 0.75rem;
 }
+
+.carousel {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.carousel-arrow.left { left: 0.5rem; }
+.carousel-arrow.right { right: 0.5rem; }
+
+.carousel video.photo {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}

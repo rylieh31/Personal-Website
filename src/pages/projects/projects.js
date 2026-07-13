@@ -2,6 +2,7 @@
 
 import React from "react";
 import "./projects.css";
+import ImageCarousel from "../projects/ImageCarousel";
 import SafeTrek from "../../images/SafeTrek.JPG";
 import OnAir from "../../images/On Air Schematic.jpg"
 import Walter from "../../images/WalTer.JPG"
@@ -10,6 +11,20 @@ import LED from "../../images/LED Car Schematic.jpeg"
 import WatchHer from "../../images/WatchHer.jpg"
 import AMPLab from "../../images/AMPLabCompSchematic.png"
 import Audio from "../../images/Home Audio System.jpeg"
+import Audio2 from "../../images/Audio2.jpeg"
+import Audio3 from "../../images/Audio3.jpeg"
+import AMPLabVideo from "../../videos/Power Failure Detection System.mp4"
+
+const ampLabItems = [
+  { type: "image", src: AMPLab },
+  { type: "video", src: AMPLabVideo },
+];
+
+const audioItems = [
+  { type: "image", src: Audio },
+  { type: "image", src: Audio2 },
+  { type: "image", src: Audio3 },
+];
 
 const Projects = () => {
   return (
@@ -18,7 +33,7 @@ const Projects = () => {
       <div className="projects">
              {/* project -1 : Home Audio System */}
       <div className="project-card">
-        <img src={Audio} alt="Home Audio System" className="photo" />
+        <ImageCarousel items={audioItems} alt="Home Audio System" />
 
         <div className="project-content">
           <h3 className="title">Home Audio System</h3>
@@ -38,17 +53,16 @@ const Projects = () => {
             <span>PWM</span>
           </div>
 
-          {/* <div className="project-buttons">
-            <a href="#" target="_blank" rel="noopener noreferrer">Demo</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </div> */}
+          {<div className="project-buttons">
+            <a href="https://youtube.com/shorts/P-tPEAIqyoE?is=b-7F6J5eMiurPixr" target="_blank" rel="noopener noreferrer">Video</a>
+          </div>}
 
           
         </div>
       </div>
       {/* project 0 : AMP Lab Competition Project */}
       <div className="project-card">
-        <img src={AMPLab} alt="Power Supply Failure Detection System" className="photo" />
+        <ImageCarousel items={ampLabItems} alt="Power Supply Failure Detection System" />
 
         <div className="project-content">
           <h3 className="title">Power Supply Failure Detection System</h3>

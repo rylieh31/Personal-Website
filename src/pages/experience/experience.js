@@ -2,6 +2,8 @@ import React from "react";
 import "./experience.css";
 
 import moog from "../../images/moog logo.png";
+import bolt from "../../images/bolt.jpg";
+import engineering from "../../images/engineering.jpg";
 import vtes from "../../images/vtes logo.png";
 import vtlib from "../../images/vt libraries logo.png";
 import mcs from "../../images/mcs logo.png";
@@ -11,11 +13,30 @@ const experiences = [
   {
     title: "Electrical Engineering Intern",
     company: "Moog Inc",
-    date: "Jul 2025 - Present",
+    date: "May 2026 - Present",
     logo: moog,
     description:
       "I am designing and developing a custom solder training kit to support new Moog Technicians. To do this, I am creating electrical scehmatics and PCB layouts using Cadence OrCAD/Allegro.",
     skills: ["Schmatic Capture", "Cadence OrCAD/Allegro", "Circuit Design", "PCB Layouts"],
+  },
+   {
+    title: "Powertrain Subteam Member",
+    company: "BOLT Virginia Tech",
+    date: "Jan 2026 - Present",
+    logo: bolt,
+    description:
+     "I am designing electrical systems for Virginia Tech's second fully electric dirt bike. My work includes redesigning the low-voltage power architecture to operate from the main battery pack and designing power distribution PCBs using Altium Designer.",
+    skills: ["Electrical Design", "Power Distribution", "PCB Design", "Altium Designer"],
+      
+  },
+   {
+    title: "Digital Systems Teaching Assistant",
+    company: "Virginia Tech ECE Department",
+    date: "Aug 2026 - Present",
+    logo: engineering,
+    description:
+       "I assist students with digital logic design, Verilog programming, and FPGA development. I help troubleshoot hardware designs, debug implementations, and explain digital systems concepts to support student learning.",
+    skills: ["Verilog", "FPGA Development", "Digital Logic Design", "Hardware Debugging"],
   },
   {
     title: "Supply Chain Intern",

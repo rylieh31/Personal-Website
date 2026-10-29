@@ -5,20 +5,20 @@ import secondPhoto from "../../images/mehiking.jpeg";
 
 const skillCategories = [
   {
-    title: "Electrical Engineering",
-    skills: ["AutoCAD Electrical", "LTspice", "Schematic Design", "Electrical Wiring", "Soldering", "Testing Equipment"],
+    title: "Electrical Design",
+    skills: ["Cadence OrCAD/Allegro", "Altium Designer", "Circuit Design", "PCB Design", "LTspice"],
   },
   {
-    title: "Programming Languages",
-    skills: ["Verilog/VHDL", "Python", "C/C++", "Java", "JavaScript/TypeScript", "HTML/CSS"],
+    title: "Programming",
+    skills: ["Verilog/VHDL", "Python", "C/C++", "JavaScript/TypeScript", "HTML/CSS"],
   },
   {
-    title: "Frameworks / Developer Tools",
-    skills: ["React", "Astro.js", "Tailwind CSS", "Node.js", "Docker", "GitHub", "VS Code"],
+    title: "Test Equipment",
+    skills: ["Oscilloscopes", "Function Generators", "Digital Multimeters", "Power Supplies"],
   },
   {
     title: "Hardware and Tools",
-    skills: ["ESP32", "Arduino", "Raspberry Pi", "Relays", "Sensors", "Motor Controllers", "Power Electronics Basics"],
+    skills: ["ESP32", "Arduino", "Raspberry Pi", "Relays", "Sensors", "Motor Controllers", "Power Electronics"],
   },
   {
     title: "Collaboration / Soft Skills",
@@ -38,7 +38,7 @@ const About = () => {
         <div className="info-section">
           <p className="description">
             Hi, I'm Rylie!<br /><br />
-            I’m an Electrical Engineering student at Virginia Tech pursuing a minor in Computer Science, and I’m currently a Supply Chain Intern at Moog Inc. I have a passion for robotics, electric vehicles, and hands-on electrical systems. I love designing and wiring circuits, creating schematics, and building solutions that combine hardware and software.<br /><br />
+            I’m an Electrical Engineering student at Virginia Tech, and I’m currently a Electrical Engineering Intern at Moog Inc. I have a passion for electric vehicles, aerospace systems, and hands-on electrical systems. I love designing and wiring circuits, creating schematics, and building solutions that combine hardware and software.<br /><br />
             Outside of engineering, I enjoy hiking, biking, and running, keeping active and exploring the outdoors. I thrive on learning new technologies, solving challenging problems, and collaborating with teams to bring projects to life.
           </p>
         </div>

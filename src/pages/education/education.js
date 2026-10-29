@@ -9,10 +9,10 @@ import chsLogo from "../../images/chs logo.png";
 const education = [
   {
     school: "Virginia Tech",
-    degree: "B.S. in Engineering: Electrical Engineering with a minor in Computer Science",
+    degree: "B.S. Electrical Engineering",
     date: "Aug 2024 – May 2028",
     logo: vtLogo,
-    highlights: ["GPA: 3.72/4.00", "Computer Science Minor"]
+    highlights: ["GPA: 3.72/4.00"]
   },
   {
     school: "New River Community College",
